@@ -38,7 +38,7 @@ NSMutableArray *maScores;
     // Dispose of any resources that can be recreated.
 }
 
-(void)initController
+- (void)initController
 {
     int counter = 0;
     pos = 0;
@@ -53,10 +53,10 @@ NSMutableArray *maScores;
 - (void)viewDidAppear:(BOOL)animated
 {
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:pos inSection:0];
-    [self.tableView scrollToRowAtIndexPath:indexPath
+    [self.tblTableView scrollToRowAtIndexPath:indexPath
                           atScrollPosition:UITableViewScrollPositionMiddle
                                   animated:YES];
-    [self.tableView selectRowAtIndexPath:indexPath
+    [self.tblTableView selectRowAtIndexPath:indexPath
                                 animated:YES
                           scrollPosition:UITableViewScrollPositionNone];
 }
@@ -98,8 +98,8 @@ NSMutableArray *maScores;
         cell = [[Customcell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     NSMutableArray *record = maScores[indexPath.row];
-    cell.Title.text = [record objectAtIndex:0];
-    cell.Detail.text = [record objectAtIndex:1];
+    cell.lblDate.text = [record objectAtIndex:0];
+    cell.lblScore.text = [record objectAtIndex:1];
     return cell;
 }
 

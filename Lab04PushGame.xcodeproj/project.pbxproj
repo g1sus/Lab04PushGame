@@ -17,6 +17,7 @@
 		64C4D3F31A8456CB007D2A85 /* Resultados.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C4D3F21A8456CB007D2A85 /* Resultados.m */; };
 		64C4D3F61A845BF4007D2A85 /* Customcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C4D3F51A845BF4007D2A85 /* Customcell.m */; };
 		64C4D3F91A845DD8007D2A85 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C4D3F81A845DD8007D2A85 /* DBManager.m */; };
+		64C4D3FB1A846863007D2A85 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4D3FA1A846863007D2A85 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		64C4D3F51A845BF4007D2A85 /* Customcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Customcell.m; path = Lab04PushGame/Customcell.m; sourceTree = "<group>"; };
 		64C4D3F71A845DD8007D2A85 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = Lab04PushGame/DBManager.h; sourceTree = "<group>"; };
 		64C4D3F81A845DD8007D2A85 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = Lab04PushGame/DBManager.m; sourceTree = "<group>"; };
+		64C4D3FA1A846863007D2A85 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C4D3FB1A846863007D2A85 /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +75,7 @@
 		64C4D3A51A8308A8007D2A85 = {
 			isa = PBXGroup;
 			children = (
+				64C4D3FA1A846863007D2A85 /* libsqlite3.0.dylib */,
 				64C4D3F71A845DD8007D2A85 /* DBManager.h */,
 				64C4D3F81A845DD8007D2A85 /* DBManager.m */,
 				64C4D3F41A845BF4007D2A85 /* Customcell.h */,
