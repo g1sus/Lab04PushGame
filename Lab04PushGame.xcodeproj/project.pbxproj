@@ -14,6 +14,9 @@
 		64C4D3BF1A8308A8007D2A85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C4D3BE1A8308A8007D2A85 /* Images.xcassets */; };
 		64C4D3C21A8308A8007D2A85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C4D3C01A8308A8007D2A85 /* LaunchScreen.xib */; };
 		64C4D3CE1A8308A8007D2A85 /* Lab04PushGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C4D3CD1A8308A8007D2A85 /* Lab04PushGameTests.m */; };
+		64C4D3F31A8456CB007D2A85 /* Resultados.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C4D3F21A8456CB007D2A85 /* Resultados.m */; };
+		64C4D3F61A845BF4007D2A85 /* Customcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C4D3F51A845BF4007D2A85 /* Customcell.m */; };
+		64C4D3F91A845DD8007D2A85 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C4D3F81A845DD8007D2A85 /* DBManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		64C4D3C71A8308A8007D2A85 /* Lab04PushGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab04PushGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C4D3CC1A8308A8007D2A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64C4D3CD1A8308A8007D2A85 /* Lab04PushGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab04PushGameTests.m; sourceTree = "<group>"; };
+		64C4D3F11A8456CB007D2A85 /* Resultados.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Resultados.h; path = Lab04PushGame/Resultados.h; sourceTree = "<group>"; };
+		64C4D3F21A8456CB007D2A85 /* Resultados.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Resultados.m; path = Lab04PushGame/Resultados.m; sourceTree = "<group>"; };
+		64C4D3F41A845BF4007D2A85 /* Customcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Customcell.h; path = Lab04PushGame/Customcell.h; sourceTree = "<group>"; };
+		64C4D3F51A845BF4007D2A85 /* Customcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Customcell.m; path = Lab04PushGame/Customcell.m; sourceTree = "<group>"; };
+		64C4D3F71A845DD8007D2A85 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = Lab04PushGame/DBManager.h; sourceTree = "<group>"; };
+		64C4D3F81A845DD8007D2A85 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = Lab04PushGame/DBManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,12 @@
 		64C4D3A51A8308A8007D2A85 = {
 			isa = PBXGroup;
 			children = (
+				64C4D3F71A845DD8007D2A85 /* DBManager.h */,
+				64C4D3F81A845DD8007D2A85 /* DBManager.m */,
+				64C4D3F41A845BF4007D2A85 /* Customcell.h */,
+				64C4D3F51A845BF4007D2A85 /* Customcell.m */,
+				64C4D3F11A8456CB007D2A85 /* Resultados.h */,
+				64C4D3F21A8456CB007D2A85 /* Resultados.m */,
 				64C4D3B01A8308A8007D2A85 /* Lab04PushGame */,
 				64C4D3CA1A8308A8007D2A85 /* Lab04PushGameTests */,
 				64C4D3AF1A8308A8007D2A85 /* Products */,
@@ -220,8 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				64C4D3BA1A8308A8007D2A85 /* Home.m in Sources */,
+				64C4D3F31A8456CB007D2A85 /* Resultados.m in Sources */,
 				64C4D3B71A8308A8007D2A85 /* AppDelegate.m in Sources */,
+				64C4D3F91A845DD8007D2A85 /* DBManager.m in Sources */,
 				64C4D3B41A8308A8007D2A85 /* main.m in Sources */,
+				64C4D3F61A845BF4007D2A85 /* Customcell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +430,7 @@
 				64C4D3D31A8308A8007D2A85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64C4D3D41A8308A8007D2A85 /* Build configuration list for PBXNativeTarget "Lab04PushGameTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				64C4D3D61A8308A8007D2A85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

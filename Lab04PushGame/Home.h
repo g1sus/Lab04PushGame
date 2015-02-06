@@ -7,8 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DBManager.h"
 
 @interface Home : UIViewController
+
+//labels
+
+@property (strong, nonatomic) IBOutlet UILabel *lblContar;
+
+@property (strong, nonatomic) IBOutlet UILabel *lblTempo;
+
+//actions
+
+- (IBAction)btnPush:(id)sender;
 
 
 @end
