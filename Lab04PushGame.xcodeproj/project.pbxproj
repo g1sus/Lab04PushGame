@@ -44,12 +44,12 @@
 		64C4D3C71A8308A8007D2A85 /* Lab04PushGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab04PushGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C4D3CC1A8308A8007D2A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64C4D3CD1A8308A8007D2A85 /* Lab04PushGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab04PushGameTests.m; sourceTree = "<group>"; };
-		64C4D3F11A8456CB007D2A85 /* Resultados.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Resultados.h; path = Lab04PushGame/Resultados.h; sourceTree = "<group>"; };
-		64C4D3F21A8456CB007D2A85 /* Resultados.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Resultados.m; path = Lab04PushGame/Resultados.m; sourceTree = "<group>"; };
-		64C4D3F41A845BF4007D2A85 /* Customcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Customcell.h; path = Lab04PushGame/Customcell.h; sourceTree = "<group>"; };
-		64C4D3F51A845BF4007D2A85 /* Customcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Customcell.m; path = Lab04PushGame/Customcell.m; sourceTree = "<group>"; };
-		64C4D3F71A845DD8007D2A85 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = Lab04PushGame/DBManager.h; sourceTree = "<group>"; };
-		64C4D3F81A845DD8007D2A85 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = Lab04PushGame/DBManager.m; sourceTree = "<group>"; };
+		64C4D3F11A8456CB007D2A85 /* Resultados.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resultados.h; sourceTree = "<group>"; };
+		64C4D3F21A8456CB007D2A85 /* Resultados.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Resultados.m; sourceTree = "<group>"; };
+		64C4D3F41A845BF4007D2A85 /* Customcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customcell.h; sourceTree = "<group>"; };
+		64C4D3F51A845BF4007D2A85 /* Customcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customcell.m; sourceTree = "<group>"; };
+		64C4D3F71A845DD8007D2A85 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		64C4D3F81A845DD8007D2A85 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
 		64C4D3FA1A846863007D2A85 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -76,12 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				64C4D3FA1A846863007D2A85 /* libsqlite3.0.dylib */,
-				64C4D3F71A845DD8007D2A85 /* DBManager.h */,
-				64C4D3F81A845DD8007D2A85 /* DBManager.m */,
-				64C4D3F41A845BF4007D2A85 /* Customcell.h */,
-				64C4D3F51A845BF4007D2A85 /* Customcell.m */,
-				64C4D3F11A8456CB007D2A85 /* Resultados.h */,
-				64C4D3F21A8456CB007D2A85 /* Resultados.m */,
 				64C4D3B01A8308A8007D2A85 /* Lab04PushGame */,
 				64C4D3CA1A8308A8007D2A85 /* Lab04PushGameTests */,
 				64C4D3AF1A8308A8007D2A85 /* Products */,
@@ -104,6 +98,12 @@
 				64C4D3B61A8308A8007D2A85 /* AppDelegate.m */,
 				64C4D3B81A8308A8007D2A85 /* Home.h */,
 				64C4D3B91A8308A8007D2A85 /* Home.m */,
+				64C4D3F71A845DD8007D2A85 /* DBManager.h */,
+				64C4D3F81A845DD8007D2A85 /* DBManager.m */,
+				64C4D3F41A845BF4007D2A85 /* Customcell.h */,
+				64C4D3F51A845BF4007D2A85 /* Customcell.m */,
+				64C4D3F11A8456CB007D2A85 /* Resultados.h */,
+				64C4D3F21A8456CB007D2A85 /* Resultados.m */,
 				64C4D3BB1A8308A8007D2A85 /* Main.storyboard */,
 				64C4D3BE1A8308A8007D2A85 /* Images.xcassets */,
 				64C4D3C01A8308A8007D2A85 /* LaunchScreen.xib */,

@@ -91,7 +91,7 @@ NSMutableArray *maScores;
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //NSLog(@"CellScore");
-    static NSString *CellIdentifier = @"Customcell";
+    static NSString *CellIdentifier = @"celda";
     Customcell *cell = (Customcell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil)
     {

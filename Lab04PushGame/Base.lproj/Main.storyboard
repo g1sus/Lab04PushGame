@@ -101,7 +101,7 @@
                                 <rect key="frame" x="0.0" y="98" width="392" height="569"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="bW1-Fw-yw7" customClass="Customcell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="celda" id="bW1-Fw-yw7" customClass="Customcell">
                                         <rect key="frame" x="0.0" y="0.0" width="392" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bW1-Fw-yw7" id="Pkz-oF-ckM">
@@ -127,6 +127,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="pMw-bF-ny3" id="eXl-ab-cRo"/>
+                                    <outlet property="delegate" destination="pMw-bF-ny3" id="twI-Sy-z9e"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>

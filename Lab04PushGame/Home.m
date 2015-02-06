@@ -38,7 +38,7 @@ NSTimer *myTimer;
     }
 }
 
--(void)Save{
+- (void)Save{
     BOOL success = NO;
     NSDateFormatter *DateFormatter=[[NSDateFormatter alloc] init];
     [DateFormatter setDateFormat:@"yyyy-MM-dd hh:mm:ss"];
@@ -55,7 +55,7 @@ NSTimer *myTimer;
 
 - (void)GoToScore{
     [self Save];
-    [self performSegueWithIdentifier:@"GoToScores" sender:self];
+    [self performSegueWithIdentifier:@"HometoResultados" sender:self];
 }
 
 
